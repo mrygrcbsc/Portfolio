@@ -1,0 +1,369 @@
+/** fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* banner */
+.banner{
+  width: 100%;
+  background-color: #207BFF;
+  padding: 135px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 397px;
+}
+
+.banner-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 397px;
+}
+
+.banner-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-heading {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.banner-subheading{
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.graceimage{
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+/* about me */
+.about-me {
+  width: 100%;
+  background-color: #F5F7FA;
+  padding: 70px 0;
+}
+
+.about-me-wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.about-me-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #207BFF;
+  padding-bottom: 30px;
+}
+
+.about-me p{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 30px;
+  }
+
+/* educational field & work field */
+.education-work-field {
+  width: 100%;
+  overflow: hidden;
+}
+
+.education-work-field-wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+}
+
+.title-education-heading, .title-organization-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #207BFF;
+  line-height: 28px;
+}
+
+.title-organization-heading{
+  padding-top: 30px;
+}
+
+.education, .work-experience{
+  width: 50%;
+  padding: 70px 0;
+}
+
+.work-experience {
+  background-color: #207BFF;
+  padding-left: 70px;
+  position: relative;
+}
+
+.work-experience::before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #207BFF;
+}
+
+.year {
+  padding-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #207BFF;
+}
+
+.school, .org-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #207BFF;
+}
+
+.course, .position {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #207BFF;
+}
+
+.work-title-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 28px;
+}
+
+.year-and-company {
+  padding-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.work-title {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.responsibilities {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.work-responsibilities {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+/* skills and image */
+.skills {
+  width: 100%;
+}
+
+.skills-wrapper{
+  margin: 0 auto;
+  max-width: 890px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.skill-heading{
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.skill-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #207BFF;
+  line-height: 28px;
+}
+
+.skill-infos, .image-container{
+  width: 50%;
+  padding-top: 38px;
+  padding-bottom: 70px;
+}
+
+.skill-heading, .skills{
+  background-color: #F5F7FA;
+}
+
+.image-container {
+  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.skills-image {
+  width: 100%;
+  max-width: 375px;
+  object-fit: contain;
+}
+
+.name, .percent {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.skill-item-content {
+display: flex;
+justify-content: space-between;
+}
+
+.skill-item {
+  padding-bottom: 15px;
+}
+
+.skill-item:last-child {
+  padding: 0;
+}
+
+span {
+  width: 100%;
+  display: inline-block;
+  height: 5px;
+  background-color: #207BFF;
+}
+
+.ninety {
+  max-width: 450px;
+}
+
+.eighty-five {
+  max-width: 420px;
+}
+
+.eighty {
+  max-width: 400px;
+}
+
+.seventy {
+  max-width: 350px;
+}
+
+@media only screen and (max-width: 769px) {
+  .banner {
+    padding: 68px 0;
+  }
+
+  .banner-left, .banner-right {
+    display: none;
+  }
+
+  .banner-heading {
+    font-size: 25px;
+  }
+
+  .banner-subheading {
+    font-size: 15px;
+  }
+
+  .about-me {
+    padding: 35px 0;
+  }
+
+  .about-me-title {
+    font-size: 20px;
+  }
+
+  .title-education-heading, .title-organization-heading {
+    font-size: 15px;
+  }
+
+  .education, .work-experience,{
+  padding: 35px 0;
+  }
+
+ .skill-title {
+    font-size: 20px;
+  }
+
+
+  .course, .position, .year-and-company, .year, .about-me p, .responsibilities, .work-responsibilities, .name, .percent {
+    font-size: 12px;
+  }
+
+  .skill-title, .skill-infos, .image-container {
+    padding-bottom: 35px;
+  }
+
+  .work-title-heading, .school, .org-name, .work-title {
+    font-size: 15px;
+  }
+
+  .skill-infos, .image-container, .education, .work-experience {
+    width: 100%;
+  }
+
+  .education-work-field-wrapper, .skills-wrapper {
+    display: block;
+  }
+
+  .about-me-wrapper, .skills-wrapper, .eduaction-wrapper, .work-experience-wrapper{
+    padding-left: 30px;
+    padding-right:30px;
+  }
+
+  .work-experience::before {
+    display: none;
+  }
+
+  .work-experience{
+    padding: 70px 0; 
+  }
+}
